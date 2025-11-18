@@ -1,0 +1,53 @@
+/* ===== ESCRITORIO - estilos específicos ===== */
+
+.escritorio-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 20px;
+}
+
+.sidebar{
+  width: 220px;
+  background: var(--panel);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #000;
+}
+
+.sidebar h3{
+  color: var(--naranja);
+  margin-bottom: 15px;
+}
+
+.sidebar a{
+  display: block;
+  color: var(--texto);
+  padding: 8px 0;
+  text-decoration: none;
+}
+
+.sidebar a:hover{
+  color: var(--naranja);
+}
+
+.main-content{
+  flex: 1;
+  background: var(--panel);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #000;
+}
+
+/* Tablas dentro del escritorio */
+.main-content table{
+  margin-top: 10px;
+}
+
+/* Títulos de secciones */
+.section-title{
+  font-size: 20px;
+  color: var(--naranja);
+  margin-bottom: 10px;
+}

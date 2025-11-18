@@ -1,0 +1,61 @@
+/* ===== USUARIO - estilos específicos ===== */
+
+.usuarios-section{
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background: var(--panel);
+  border-radius: 8px;
+  box-shadow: 0 0 10px #000;
+}
+
+/* Títulos */
+.usuarios-section h2{
+  color: var(--naranja);
+  margin-bottom: 15px;
+}
+
+/* Tabla de usuarios */
+.usuarios-section table th{
+  background: var(--naranja);
+  color: #000;
+}
+
+.usuarios-section table td{
+  color: var(--texto);
+}
+
+/* Badges de roles */
+.badge{
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  min-width: 50px;
+}
+
+.badge-admin{
+  background: var(--naranja);
+  color: #000;
+}
+
+.badge-usuario{
+  background: #333;
+  color: var(--texto);
+}
+
+.badge-json{
+  background: #1e90ff;
+}
+
+.badge-local{
+  background: #6a0dad;
+}
+
+/* Botones dentro de la sección */
+.usuarios-section button{
+  margin-top: 10px;
+}

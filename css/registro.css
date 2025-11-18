@@ -1,0 +1,34 @@
+/* ===== REGISTRO - estilos específicos ===== */
+
+.registro-box{
+  width: 400px;
+  text-align: center;
+}
+
+.registro-box h2{
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: var(--naranja);
+}
+
+.registro-box a{
+  color: var(--naranja);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.registro-box a:hover{
+  text-decoration: underline;
+}
+
+/* Validación de campos */
+.input-group input:focus{
+  border-color: var(--naranja);
+  outline: none;
+}
+
+/* Mensaje pequeño bajo inputs */
+.input-group small{
+  font-style: italic;
+}
+
